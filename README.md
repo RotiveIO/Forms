@@ -6,7 +6,12 @@ Rotive forms for Pardot is a simple script and markup based on [Bootstrap](https
 
 ## Installation
 
-### CDN
+### CDN (unstable)
 ```html
-<script src="https://cdn.jsdelivr.net/gh/rotiveio/forms@1/dist/forms.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/rotiveio/forms/dist/forms.js"></script>
+```
+
+### CDN (stable)
+```html
+<script src="https://cdn.jsdelivr.net/gh/rotiveio/forms@1.0/dist/forms.js"></script>
 ```
