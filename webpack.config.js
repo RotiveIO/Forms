@@ -7,7 +7,7 @@ module.exports = {
 	mode: 'production',
 	entry: ['./src/index.js'],
 	output: {
-		filename: 'rotive.js',
+		filename: 'forms.js',
 		path: path.resolve(__dirname, 'dist'),
 		libraryTarget: 'var',
 		library: 'Rotive',
