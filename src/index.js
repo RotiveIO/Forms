@@ -13,8 +13,4 @@ $('label').each(function() {
 	var forId = $(this).attr('for');
 	//$('#' + forId).attr('placeholder', placeHolder);
 	
-	$('.text,.select,textarea').addClass("form-control");
-	$('.pd-checkbox input').addClass('form-check-input');
-	$('.pd-checkbox label').addClass('form-check-label');
-	$('.pd-checkbox span.value').addClass('form-check');
 });
