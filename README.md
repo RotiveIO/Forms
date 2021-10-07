@@ -21,9 +21,7 @@ Rotive forms for Pardot is a simple script and markup based on [Bootstrap](https
 To initialize the library, add this basic boilerplate after the script call.
 
 ```javascript
-<script>
-	Rotive.init();
-</script>
+Rotive.init();
 ```
 
 ## Customization
@@ -33,11 +31,9 @@ The library exposes several useful settings to customize the look and feel of th
 Confugration options are passed as a JSON object to the required `init` function on the `Rotive` object.
 
 ```javascript
-<script>
-	Rotive.init({
-		// Options here
-	});
-</script>
+Rotive.init({
+	// Options here
+});
 ```
 
 ### Example
@@ -45,12 +41,10 @@ Confugration options are passed as a JSON object to the required `init` function
 Lets say for example, your primary color is purple (`#8b46c7`).
 
 ```javascript
-<script>
-	Rotive.init({
-		primaryColor: '#8b46c7',
-		/* ... */
-	});
-</script>
+Rotive.init({
+	primaryColor: '#8b46c7',
+	/* ... */
+});
 ```
 
 ![Rotive IO Primary color example](https://github.com/RotiveIO/Forms/raw/main/Static/primaryColor.png)
