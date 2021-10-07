@@ -52,3 +52,19 @@ Lets say for example, your primary color is purple (`#8b46c7`).
 	});
 </script>
 ```
+
+![Rotive IO Primary color example](https://github.com/RotiveIO/Forms/raw/main/Static/primaryColor.png)
+
+As you can see, primary color sets the border of the fields and the primary call to action.
+
+### Available options
+
+|Option|Type|Description|Default|
+|------|----|-----------|-------|
+|`primaryColor`|HEX|Color of field border and primary CTA|`#69B4C6`|
+|`secondaryColor`|HEX|Secondary CTA color.|`#5c636a`|
+|`hoverChange`|Int 0-255|How much darker the buttons get on hover|`20`|
+|`placeholder`|Boolean|When `true` sets the visibility of the placeholder text, which equals the label text. This option is ignored when `labels` is true.|`false`
+|`labels`|Boolean|Indicates whether or not the field labels should be visible.|`true`
+|`textColor`|HEX|Color of the body text.|`#505050`
+|`errorColor`|HEX|Color of the error messages.|`#dc3545`
