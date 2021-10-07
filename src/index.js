@@ -14,6 +14,7 @@ const defaults = {
 	secondaryColor: '#5c636a',
 	hoverChange: 20,
 	errorColor: '#dc3545',
+	labels: true,
 };
 
 var options = {};
@@ -31,6 +32,10 @@ export function init(optionsInput) {
 	setPrimaryColor(options.primaryColor);
 	setSecondaryColor(options.secondaryColor);
 	setErrorColor(options.errorColor);
+
+	if (options.labels === false) {
+		hideLabels();
+	}
 	
 	setStyles();
 }
@@ -80,6 +85,11 @@ function setStyles() {
 	});
 	
 	document.getElementsByTagName('head')[0].appendChild(style);
+}
+
+function hideLabels() {
+	$('label').hide();
+	enablePlaceholders();
 }
 
 function componentToHex(c) {

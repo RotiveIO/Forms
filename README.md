@@ -15,3 +15,40 @@ Rotive forms for Pardot is a simple script and markup based on [Bootstrap](https
 ```html
 <script src="https://cdn.jsdelivr.net/gh/rotiveio/forms@1.0/dist/forms.js"></script>
 ```
+
+## Getting Started
+
+To initialize the library, add this basic boilerplate after the script call.
+
+```javascript
+<script>
+	Rotive.init();
+</script>
+```
+
+## Customization
+
+The library exposes several useful settings to customize the look and feel of the form to have it fit your site branding.
+
+Confugration options are passed as a JSON object to the required `init` function on the `Rotive` object.
+
+```javascript
+<script>
+	Rotive.init({
+		// Options here
+	});
+</script>
+```
+
+### Example
+
+Lets say for example, your primary color is purple (`#8b46c7`).
+
+```javascript
+<script>
+	Rotive.init({
+		primaryColor: '#8b46c7',
+		/* ... */
+	});
+</script>
+```
