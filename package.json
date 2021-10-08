@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm version --git-tag-version=false && webpack && ./versioning.sh --apply",
+    "build": "npm version patch --git-tag-version=false && webpack && ./versioning.sh --apply",
     "dev": "webpack",
     "watch": "webpack --watch"
   },
