@@ -1,12 +1,13 @@
 {
   "name": "RotiveBootStrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm version patch --git-tag-version=false && webpack && ./versioning.sh --apply",
+    "build": "npm version patch --git-tag-version=false && webpack && ./versioning.sh --patch --apply",
     "dev": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "build-minor": "npm version minor --git-tag-version=false && webpack && ./versioning.sh --minor --apply"
   },
   "keywords": [],
   "author": "",
