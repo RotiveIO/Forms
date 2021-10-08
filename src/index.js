@@ -38,6 +38,8 @@ export function init(optionsInput) {
 	}
 	
 	setStyles();
+	
+	console.log(process.env.npm_package_version);
 }
 
 function enablePlaceholders() {
