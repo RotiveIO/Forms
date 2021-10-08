@@ -1,4 +1,4 @@
-/*! Rotive Forms Version 1.0.6 */
+/*! Rotive Forms Version 1.0.7 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -19406,7 +19406,7 @@ function init(optionsInput) {
 	
 	setStyles();
 		
-	var c = document.createComment("Rotive FormsJS Version " + "1.0.6");
+	var c = document.createComment("Rotive FormsJS Version " + "1.0.7");
 	document.head.appendChild(c);
 }
 
