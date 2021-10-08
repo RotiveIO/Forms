@@ -2,6 +2,7 @@
 
 const path = require('path');
 const webpack = require('webpack');
+const pkg = require('./package.json');
 
 module.exports = {
 	mode: 'production',
@@ -12,6 +13,11 @@ module.exports = {
 		libraryTarget: 'var',
 		library: 'Rotive',
 	},
+	plugins: [
+		new webpack.DefinePlugin({
+			   __VERSION__: JSON.stringify(require('./package.json').version)
+		})	
+	],
 	module: {
 		rules: [
 			{
