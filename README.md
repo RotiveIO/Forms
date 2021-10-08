@@ -57,7 +57,7 @@ As you can see, primary color sets the border of the fields and the primary call
 |------|----|-----------|-------|
 |`primaryColor`|HEX|Color of field border and primary CTA|`#69B4C6`|
 |`secondaryColor`|HEX|Secondary CTA color.|`#5c636a`|
-|`hoverChange`|Int 0-255|How much darker the buttons get on hover|`20`|
+|`hoverChange`|Int|How much darker the buttons get on hover. Accepts an integer between 0-255.|`20`|
 |`placeholder`|Boolean|When `true` sets the visibility of the placeholder text, which equals the label text. This option is ignored when `labels` is true.|`false`
 |`labels`|Boolean|Indicates whether or not the field labels should be visible.|`true`
 |`textColor`|HEX|Color of the body text.|`#505050`
