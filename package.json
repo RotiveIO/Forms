@@ -1,10 +1,10 @@
 {
   "name": "RotiveBootStrap",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm version from-git && webpack",
+    "build": "npm version --git-tag-version=false && webpack && ./versioning.sh --apply",
     "dev": "webpack",
     "watch": "webpack --watch"
   },

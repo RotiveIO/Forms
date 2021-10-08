@@ -39,7 +39,7 @@ export function init(optionsInput) {
 	
 	setStyles();
 		
-	console.log(__VERSION__);
+	console.log("Version", __VERSION__);
 }
 
 function enablePlaceholders() {
