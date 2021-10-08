@@ -2,21 +2,25 @@
 
 const path = require('path');
 const webpack = require('webpack');
-const pkg = require('./package.json');
 
 module.exports = {
-	mode: 'production',
+	mode: 'none',
 	entry: ['./src/index.js'],
 	output: {
 		filename: 'forms.js',
 		path: path.resolve(__dirname, 'dist'),
-		libraryTarget: 'var',
-		library: 'Rotive',
+		library: {
+			name: 'Rotive',
+			type: 'umd'
+		}
 	},
 	plugins: [
 		new webpack.DefinePlugin({
 			   __VERSION__: JSON.stringify(require('./package.json').version)
-		})	
+		}),
+		new webpack.BannerPlugin({
+			  banner: 'Rotive Forms Version ' + require('./package.json').version,
+		})
 	],
 	module: {
 		rules: [

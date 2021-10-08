@@ -39,7 +39,8 @@ export function init(optionsInput) {
 	
 	setStyles();
 		
-	console.log("Version", __VERSION__);
+	var c = document.createComment("Rotive FormsJS Version " + __VERSION__);
+	document.head.appendChild(c);
 }
 
 function enablePlaceholders() {
