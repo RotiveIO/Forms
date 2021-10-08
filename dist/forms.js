@@ -1,4 +1,4 @@
-/*! Rotive Forms Version 1.0.4 */
+/*! Rotive Forms Version 1.0.5 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -19377,7 +19377,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()('.pd-checkbox span.value').addClas
 
 const defaults = {
 	textColor: '#505050',
-	primaryColor: '#69B4C6',
+	primaryColor: '#8b46c7',
 	secondaryColor: '#5c636a',
 	hoverChange: 20,
 	errorColor: '#dc3545',
@@ -19406,7 +19406,7 @@ function init(optionsInput) {
 	
 	setStyles();
 		
-	var c = document.createComment("Rotive FormsJS Version " + "1.0.4");
+	var c = document.createComment("Rotive FormsJS Version " + "1.0.5");
 	document.head.appendChild(c);
 }
 

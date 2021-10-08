@@ -10,7 +10,7 @@ $('.pd-checkbox span.value').addClass('form-check');
 
 const defaults = {
 	textColor: '#505050',
-	primaryColor: '#69B4C6',
+	primaryColor: '#8b46c7',
 	secondaryColor: '#5c636a',
 	hoverChange: 20,
 	errorColor: '#dc3545',

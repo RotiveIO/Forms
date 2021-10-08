@@ -24,6 +24,11 @@ To initialize the library, add this basic boilerplate after the script call.
 Rotive.init();
 ```
 
+For full layout/form code, please refer to these files:
+
+`/dist/boilerplate-form.html`
+`/dist/boilerplate-layout.html`
+
 ## Customization
 
 The library exposes several useful settings to customize the look and feel of the form to have it fit your site branding.
